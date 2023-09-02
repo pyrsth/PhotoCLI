@@ -1,7 +1,5 @@
 # bgremover
 
---------------------------------
-
 a background images remover in CLI
 
 For install and run:
