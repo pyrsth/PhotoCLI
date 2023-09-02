@@ -8,6 +8,6 @@ def removebg(address,output):
     output.save(output_path)
 print("Wellcome to background image remover!")
 adress_inp=input("Enter a address image: ")
-oupt_inp=input("Enter output  address: ")
+oupt_inp=input("Enter output  address:(Just png. lake.png,etc) ")
 removebg(adress_inp,oupt_inp)
 print("Background image is removed in", oupt_inp)
