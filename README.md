@@ -2,7 +2,7 @@
 
 --------------------------------
 
-a background remover in CLI
+a background images remover in CLI
 
 For install and run:
 
