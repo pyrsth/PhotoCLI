@@ -1,4 +1,4 @@
-# bgremover
+# photocli
 
 image tools in CLI
 
