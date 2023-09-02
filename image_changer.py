@@ -6,7 +6,7 @@ def removebg(address,output):
     inp=Image.open(input_path)
     output=remove(inp)
     output.save(output_path)
-print("Wellcome to background image remover!")
+print("Wellcome to PhotoCLI!")
 adress_inp=input("Enter a address image: ")
 oupt_inp=input("Enter output  address:(Just png. lake.png,etc) ")
 removebg(adress_inp,oupt_inp)
