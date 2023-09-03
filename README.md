@@ -17,5 +17,5 @@ git clone https://codeberg.org/pyrs/bgremover
 
 cd bgremover
 
-python image_changer.py
+python __init__.py
 ```
