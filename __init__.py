@@ -23,7 +23,7 @@ def help():
     print("rmexif    Remove exif(photo data).")
     print("?         Show this output.")
     print("version   Show version abd more about for this program")
-ps=input("enter command:(or ? for help)")
+ps=input("enter command:(or ? for help) ")
 print("Wellcome to PhotoCLI!")
 
 if ps=="rmbg":
@@ -32,7 +32,7 @@ if ps=="rmbg":
     removebg(adress_inp,oupt_inp)
     print("Photo background is removed ")
 elif ps=="rmexif":
-    exphotoaddress=input("Enter a photo address:")
+    exphotoaddress=input("Enter a photo address: ")
     rmeixf(exphotoaddress)
     print("Photo exif is removed")
 elif ps=="?":
