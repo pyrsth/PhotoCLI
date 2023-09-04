@@ -1,5 +1,7 @@
-from PIL import Image
+from PIL import image
 from rembg import remove
+
+
 def removebg(address,output):
     input_path=address
     output_path=output
