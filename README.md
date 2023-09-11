@@ -1,6 +1,6 @@
 # photocli
 
-image tools in CLI
+photo tools in CLI
 
 For install and run:
 
