@@ -23,6 +23,7 @@ def help():
     print("rmexif    Remove exif(photo data).")
     print("?         Show this output.")
     print("version   Show version abd more about for this program")
+    print("quit      Quit this program")
 print("Wellcome to PhotoCLI!")
 while True :
     ps=input("enter command:(or ? for help) ")
