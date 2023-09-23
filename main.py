@@ -19,10 +19,10 @@ def rmexif(address):
     image = Image.open(ns.e) 
 
     image_without_exif.close()
-parser=argparse.ArgumentParser(description="Welcome to PhotoCLI !  PhotoCLI v0.01 alpha  Taha Mokhtary HashemAbad <taha490mokh@gmail.com> GPLv3")
+parser=argparse.ArgumentParser(description="Welcome to PhotoCLI !  PhotoCLI 0.01 alpha  Taha Mokhtary HashemAbad <taha490mokh@gmail.com> GPLv3")
 parser.add_argument('-e',help="Remove exif your photo.",action='store_true',default=None)
 parser.add_argument('-b',help="Remove background for your photo.",action='store_true',default=None)
-
+parser.add_argument('--version', action='version', version='PhotoCLI 0.01 alpha,  Taha Mokhtary HashemAbad <taha490mokh@gmail.com> GPLv3')
 ns = parser.parse_args()
 if ns.e :
     exphotoaddress=input("Enter a photo address: ")
@@ -33,3 +33,5 @@ if ns.b :
     adress_inp=input("Enter a photo address: ")
     removebg(adress_inp,"removedbg.png")
     print("Photo background is removed ")
+if ns.version :
+    print("PhotoCLI v0.01 alpha","\n","Taha Mokhtary HashemAbad <taha490mokh@gmail.com>","\n","GPLv3")
