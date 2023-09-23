@@ -17,5 +17,5 @@ git clone https://codeberg.org/pyrs/bgremover
 
 cd bgremover
 
-python __init__.py
+python main.py
 ```
