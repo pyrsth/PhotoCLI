@@ -33,5 +33,3 @@ if ns.b :
     adress_inp=input("Enter a photo address: ")
     removebg(adress_inp,"removedbg.png")
     print("Photo background is removed ")
-if ns.version :
-    print("PhotoCLI v0.01 alpha","\n","Taha Mokhtary HashemAbad <taha490mokh@gmail.com>","\n","GPLv3")
