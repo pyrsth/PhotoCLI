@@ -13,9 +13,9 @@ pip install -r requirements.txt
 And install with:
 
 ```
-git clone https://codeberg.org/pyrs/bgremover
+git clone https://codeberg.org/pyrs/photocli
 
-cd bgremover
+cd photocli
 
 python main.py -h
 ```
