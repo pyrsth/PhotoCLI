@@ -7,7 +7,7 @@ For install and run:
 First you need python  and pip. Install rembg library (in venv):
 
 ```
-pip install rembg
+pip install -r requirements.txt
 ```
 
 And install with:
@@ -17,5 +17,5 @@ git clone https://codeberg.org/pyrs/bgremover
 
 cd bgremover
 
-python main.py
+python main.py -h
 ```
