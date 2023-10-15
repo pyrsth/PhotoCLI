@@ -5,7 +5,7 @@ photo tools in CLI
 For install and run:
 ---------------------------------
 
-First you need python and pip.
+First you need python, pip and git.
 
 Install requirements:
 

@@ -11,14 +11,12 @@ def removebg(address,output):
 
 def rmexif(address):
        # next 3 lines strip exif
+    image = Image.open(address)
     data = list(image.getdata())
     image_without_exif = Image.new(image.mode, image.size)
     image_without_exif.putdata(data)
     image_without_exif.save('image_file_without_exif.jpeg')
     print("Photo exif is removed")
-    image = Image.open(ns.e) 
-
-    image_without_exif.close()
 parser=argparse.ArgumentParser(description="Welcome to PhotoCLI !  PhotoCLI 0.01 alpha  Taha Mokhtary HashemAbad <taha490mokh@gmail.com> GPLv3")
 parser.add_argument('-e',help="Remove exif your photo.",action='store_true',default=None)
 parser.add_argument('-b',help="Remove background for your photo.",action='store_true',default=None)
@@ -31,5 +29,5 @@ if ns.e :
 if ns.b :
     
     adress_inp=input("Enter a photo address: ")
-    removebg(adress_inp,"removedbg.png")
+    removebg(adress_inp,f'{adress_inp}_removed_bakground.png')
     print("Photo background is removed ")
