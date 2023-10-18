@@ -7,18 +7,19 @@ For install and run:
 
 First you need python, pip and git.
 
-Install requirements:
-
-```
-pip install -r requirements.txt
-```
-
-And install with:
+Install :
 
 ```
 git clone https://github.com/tahamokhtary/photocli
-
 cd photocli
+pip install -r requirements.txt
+
+```
+
+And run with :
+
+```
 
 python main.py -h
+
 ```
