@@ -1,20 +1,6 @@
- try: 
-    from PIL import Image
-except: 
-    print("ERROR : PYTHON MODULE PIL NOT INSTALLED")
-    import sys
-    sys.exit()
- 
-try: 
-    from rembg import remove
-except: 
-    print("ERROR : PYTHON MODULE rembg NOT INSTALLED")
- 
-try:    
-    import argparse
-except: 
-    print("ERROR : PYTHON MODULE argparse NOT INSTALLED")
-
+from PIL import Image
+from rembg import remove
+import argparse
 def removebg(address,output):
     input_path=address #input address image
     output_path=output #set output addres
