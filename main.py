@@ -24,7 +24,7 @@ parser=argparse.ArgumentParser(description="Welcome to PhotoCLI !  PhotoCLI 0.01
 parser.add_argument('-e',help="Remove exif your photo.",action='store_true',default=None)
 parser.add_argument('-b',help="Remove background for your photo.",action='store_true',default=None)
 parser.add_argument('--version', action='version', version='PhotoCLI 0.01 alpha,  Taha Mokhtary HashemAbad <taha490mokh@gmail.com> GPLv3')
-parser.add_argument('-sq',action='store_ture',help="Set quality for your photo.",default=None)
+parser.add_argument('-q',action='store_ture',help="Set quality for your photo.",default=None)
 ns = parser.parse_args()
 if ns.e :#two lines of remove exif
     exphotoaddress=input("Enter a photo address: ")
