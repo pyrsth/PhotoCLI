@@ -1,4 +1,4 @@
- try : 
+ try: 
     from PIL import Image
 except : 
     print("ERROR : PYTHON MODULE PIL NOT INSTALLED")
