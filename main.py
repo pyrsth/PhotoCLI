@@ -23,7 +23,7 @@ def setquality(quality,image_path):
 parser=argparse.ArgumentParser(description="Welcome to PhotoCLI !  PhotoCLI 0.01 alpha  Taha Mokhtary HashemAbad <taha490mokh@gmail.com> GPLv3")
 parser.add_argument('-e',help="Remove exif your photo.",action='store_true',default=None)
 parser.add_argument('-b',help="Remove background for your photo.",action='store_true',default=None)
-parser.add_argument('-q',help="Set quality for your photo.",action='store_ture',default=None)
+parser.add_argument('-r',help="Set quality for your photo.",action='store_ture',default=None)
 parser.add_argument('--version', action='version', version='PhotoCLI 0.01 alpha,  Taha Mokhtary HashemAbad <taha490mokh@gmail.com> GPLv3')
 ns = parser.parse_args()
 if ns.e :#two lines of remove exif
