@@ -34,7 +34,7 @@ if ns.b :#3 lines of remove background
     adress_inp=input("Enter a photo address: ")
     removebg(adress_inp,f'{adress_inp}_removed_bakground.png')
     print("Photo background is removed ")
-if ns.sq :
+if ns.q :
     imagepath=input("Enter address your: ")
     quality=input("Enter quality(1-100): ")
     setquality(imagepath,quality)
